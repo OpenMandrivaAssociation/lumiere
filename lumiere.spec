@@ -11,7 +11,6 @@ Source:		%{name}-%{version}.tar.bz2
 URL:		http://www.nongnu.org/lumiere
 License:	GPL
 Group:		Video
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	mplayer
 BuildRequires:	gob2
 BuildRequires:	libxine-devel >= 1 
