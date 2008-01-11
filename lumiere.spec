@@ -37,10 +37,6 @@ rm -rf $RPM_BUILD_ROOT
 rm -fr $RPM_BUILD_ROOT/%{_sysconfdir}
 
 #menu
-mkdir -p $RPM_BUILD_ROOT%{_menudir}
-cat << EOF > $RPM_BUILD_ROOT%{_menudir}/%{name}
-?package(%{name}): command="%{name}" icon="video_section.png" needs="x11" title="Lumiere" longtitle="Video Player" section="Multimedia/Video" xdg="true"
-EOF
 
 desktop-file-install --vendor="" \
   --remove-category="Application" \
@@ -72,6 +68,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/gnome-2.0/ui/*.xml
 %{_datadir}/pixmaps/*
 %{_datadir}/%name
-%{_menudir}/%name
 
 
