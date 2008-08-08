@@ -1,6 +1,6 @@
 %define name 	lumiere
 %define version 0.4
-%define release %mkrel 12
+%define release %mkrel 14
 
 Name: 		%{name}
 Summary: 	Capable, customizable, embeddable video player for GNOME2
