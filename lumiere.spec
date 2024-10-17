@@ -8,7 +8,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source:		%{name}-%{version}.tar.bz2
-URL:		http://www.nongnu.org/lumiere
+URL:		https://www.nongnu.org/lumiere
 License:	GPL
 Group:		Video
 BuildRoot:	%{_tmppath}/%{name}-buildroot
