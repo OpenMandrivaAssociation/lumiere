@@ -12,6 +12,11 @@ URL:		https://www.nongnu.org/lumiere
 License:	GPL
 Group:		Video
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	mplayer
 BuildRequires:	gob2
 BuildRequires:	libxine-devel >= 1 
